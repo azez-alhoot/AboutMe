@@ -3,7 +3,6 @@
 
 var score = 0;
 var userName = prompt('What is Your Name?');
-console.log(userName);
 alert('Your Welcome ' + userName + ' In My Web Page');
 
 var ask = confirm('Okay ' + userName + ' Let\'s Play a Game! I Will Ask You and Your Answer Shuld be Yes or No Y/N');
@@ -143,26 +142,6 @@ if (i >=4 ){alert(userName+' My Age Is 25');}
 
 }
 
-/*
-"Example For me"
-if (answer6 == myAge) {
-    alert('Great ' + userName + ' I am 25 years old');
-    score +=1;
-} else {
-  //  var newAnswer = prompt('try again');
-    for (var i = 0; i < 3; i++) {
-        if (newAnswer == myAge) {
-            alert('Great ' + userName + ' I am 25 years old');
-            score +=1;
-            i += 4;
-        }else if(newAnswer < myAge){
-            alert('too low');
-        }else if(newAnswer > myAge){
-            alert('too old');
-        }
-    }
-}
-*/
 
 function q7(){
     
