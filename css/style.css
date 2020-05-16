@@ -31,6 +31,9 @@ div p {
     padding-top: 7px;
     padding-left: 34px;
 }
+div p a {
+    color: #f5f5f5;
+}
 
 .social{
     width: 174px;
